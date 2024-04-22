@@ -1,0 +1,30 @@
+Info
+    3 Trucks
+    2 Drivers
+    40 packages/day
+        each package has specific criteria and delivery requirements
+
+Task
+    Present a solution where all 40 packages will be delivered on time while meeting each package's requirements and keeping the combined total 
+    distance traveled under 140 miles for all trucks combined.
+
+    Delivery location in "Salt Lake City Downtown Map"
+    Distance to each location in "WGUPS Distance Table"
+
+More Info 
+    Each truck can carry at most 16 packages
+    Package has unique ID
+    Average speed of 18 mph
+    Inifite gas
+    Each driver in same truck as long as the truck is in service
+    Drivers can leave hub at 8AM at the earliest
+    Can return to hub for packages if needed
+    Up to one special note associated with a package
+        Delivery address for package #9 is wrong and will be correct at 10:20am
+        WGUPS is aware that the address is incorrect
+        Does not know that the correct address should be "410 S. State St., Salt Lake City, UT 84111" until 10:20am
+    Distance prvided in "WGUPS Distance Table"
+    Day ends when all 40 packages have been delivered
+
+Part A
+    - Self Adjusting Algorithm:     
