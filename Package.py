@@ -38,9 +38,13 @@ class Package:
     def notes(self):
         return self._notes
     
-    
+    def setStatus(self, status):
+        self._status = status
+    def setAddress(self, address):
+        self._address = address
+        
     @packageID.setter
-    def id(self, packageID):
+    def packageID(self, packageID):
         self._packageID = packageID
 
     @address.setter
@@ -75,3 +79,5 @@ class Package:
     def notes(self, notes):
         self._notes = notes
 
+    def print(self):
+        print(self._packageID, self._address, self._city, self._deadline, self._note, self._status)
