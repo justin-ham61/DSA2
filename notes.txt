@@ -28,3 +28,16 @@ More Info
 
 Part A
     - Self Adjusting Algorithm:     
+        - findNearestNeighbor
+            - load all packages
+                - 
+    - Algorithm should select 
+
+
+What needs to be done 
+- load all package data
+- load all distance data
+- create class Address, Package
+- Address should have address, set of nearest neighbor
+- Package should have address, conditions
+- Array of 
