@@ -9,6 +9,11 @@ class Package:
         self._weight = weight
         self._status = 'At the Hub'
         self._note = notes
+        self._truck = 'No Truck'
+
+    @property
+    def truck(self):
+        return self._truck
     
     @property
     def packageID(self):
@@ -40,8 +45,16 @@ class Package:
     
     def setStatus(self, status):
         self._status = status
+
     def setAddress(self, address):
-        self._address = address
+        self._address = address 
+
+    def setTruck(self, truck):
+        self._truck = truck
+
+    @truck.setter
+    def truck(self, truck):
+        self._truck = truck 
         
     @packageID.setter
     def packageID(self, packageID):
