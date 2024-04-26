@@ -4,9 +4,7 @@ import csv
 from datetime import datetime, date
 from Package import Package
 from Truck import Truck
-from shared import addressHash
-from shared import packageHash
-from shared import distanceMatrix
+from shared import addressHash, packageHash, distanceMatrix
 
 def main():
     #Prompts user to choose a time to look at the delivery status
